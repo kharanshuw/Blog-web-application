@@ -2,11 +2,14 @@ import React from 'react';
 
 import './index.css';
 
+import conf from './config/environment-config.js';
+
 
 
 
 function App() {
 
+  console.log(conf.appwriteUrl);
   
   
 
