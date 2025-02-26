@@ -149,9 +149,7 @@ export class AuthService {
             }
 
         } catch (error) {
-
             console.error("Failed to get current user:", error);
-            throw error;
         }
 
 
