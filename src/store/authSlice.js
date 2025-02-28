@@ -21,6 +21,7 @@ const authSlice = createSlice(
             logout: (state) => {
                 state.status = false;
                 state.userData = null;
+                console.log("user logged out successfully changing status to .. ", state.status);
             }
 
         }
