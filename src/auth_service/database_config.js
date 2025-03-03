@@ -237,6 +237,7 @@ export class DatabaseService {
 
 
 
+    //this method is used to show preview of images stored in database 
     getFilePreview(fileid) {
         try {
             const result = this.storage.getFilePreview(
