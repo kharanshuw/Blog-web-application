@@ -88,7 +88,7 @@ export class DatabaseService {
      * It takes the document ID and the fields to be updated as input, 
      * calls the updateDocument method of a database service, and returns the result.
      */
-    async updatePost({ title, content, featuredimages, status, documentid }) {
+    async updatePost(documentid,{ title, content,  status,featuredimages }) {
         try {
             let result = await this.databases.updateDocument(
                 conf.appwriteDatabaseId,

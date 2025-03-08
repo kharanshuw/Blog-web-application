@@ -15,9 +15,7 @@ import { Controller } from 'react-hook-form'
     defaultvalue: The initial value for the rich text editor. If no value is provided, it defaults to an empty string.
  * @returns 
  */
-function RTE({
-    name, control, label, defaultvalue = ""
-}) {
+function RTE({name, control, label, defaultvalue = ""}) {
 
     return (
         <div className='w-full'>
